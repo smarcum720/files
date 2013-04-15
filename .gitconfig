@@ -1,0 +1,19 @@
+[color]
+	diff = true
+	status = auto
+[alias]
+	dns = diff --name-status
+	stage = add
+	unstage = reset HEAD
+	trash = checkout HEAD
+	uncommit = reset HEAD^
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	local = log HEAD --not --remotes
+[gitmls]
+	aliases = 2
+[branch]
+	autosetuprebase = always
+[push]
+	default = upstream
+[core]
+	editor = vim
